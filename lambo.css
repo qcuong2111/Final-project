@@ -1,0 +1,39 @@
+img {
+    width: 1000px;
+    height: 600px;
+}
+
+body{
+    margin: auto;
+    padding: 0%;
+}
+#footer {
+    padding: 30px 20px;
+    background-color: #212529; /* Màu tối */
+    color: white;
+}
+
+#footer h2 {
+    color: #007bff;
+}
+
+#footer p {
+    margin: 5px 0;
+}
+
+#footer i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+#footer i:hover {
+    color: #d1ecf1;
+}
+
+
+h1{
+    text-align: center;
+}
+    
+    

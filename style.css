@@ -1,0 +1,139 @@
+/* Tổng quan */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Màu nền nhạt */
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #343a40; /* Màu tối */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #007bff; /* Màu xanh chủ đạo */
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #d1ecf1;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1ecf1;
+}
+
+/* Illustration Section */
+#illustration {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+#illustration h1 {
+    color: #007bff;
+}
+
+#illustration img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    width: 1000px;
+    height: 1000px;
+}
+
+/* Best Seller Section */
+#Products.colored-section {
+    background-color: #343a40;
+    color: white;
+    padding: 50px 20px;
+}
+
+.card {
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-bottom: 1px solid #ddd;
+    width: auto;
+    height: auto;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Footer */
+#footer {
+    padding: 30px 20px;
+    background-color: #212529; /* Màu tối */
+    color: white;
+}
+
+#footer h2 {
+    color: #007bff;
+}
+
+#footer p {
+    margin: 5px 0;
+}
+
+#footer i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+#footer i:hover {
+    color: #d1ecf1;
+}
+
+
+h1{
+    text-align: center;
+}
+
+img {
+    width: 185px;
+    height: 185px;
+}

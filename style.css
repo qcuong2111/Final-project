@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa; /* Màu nền nhạt */
+    font-size: medium;
 }
 
 /* Header */
@@ -23,6 +24,7 @@ header h1 {
 header p {
     margin-top: 10px;
     font-size: 1.2rem;
+    
 }
 
 /* Navigation */
@@ -40,7 +42,7 @@ header p {
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: #330000;
 }
 
 .navbar-nav .nav-link:hover {
@@ -54,7 +56,7 @@ header p {
 }
 
 #illustration h1 {
-    color: #007bff;
+    color: #080202;
 }
 
 #illustration img {
@@ -68,8 +70,8 @@ header p {
 .carousel-inner img {
     height: 400px;
     object-fit: cover;
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
 }
 
 /* Best Seller Section */
@@ -136,4 +138,8 @@ h1{
 img {
     width: 185px;
     height: 185px;
+}
+h2{
+    font-size: xx-large;
+    font-weight: 900;
 }
